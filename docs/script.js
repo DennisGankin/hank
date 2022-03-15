@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var gas_liters = (gas_per_km /100.0) * (dist * 2.0)
         var gas = train / gas_liters 
         //alert(gas.toFixed(3));
-        document.getElementById("result").innerHTML = "Break even gas price at " + gas.toFixed(3) + "€. If the gas price is below that value. Taking the car is cheaper.";
+        document.getElementById("result").innerHTML = "Break even gas price at " + gas.toFixed(3) + "€. If the gas price is below that value, taking the car is cheaper.";
     });
 });
 
